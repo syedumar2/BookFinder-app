@@ -16,7 +16,7 @@ The app uses the Open Library Search API
 3. [Features](#features)  
 4. [Installation / Usage](#installation--usage) 
 5. [Video Demonstration](#video-demo) 
-6. [Deployment] (#deployment)
+6. [Deployment](#deployment)
 7. [Notes](#notes)
   
 
