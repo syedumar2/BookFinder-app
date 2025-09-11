@@ -17,7 +17,6 @@ The app uses the Open Library Search API
 4. [Installation / Usage](#installation--usage) 
 5. [Video Demonstration](#video-demo) 
 6. [Deployment](#deployment)
-7. [Notes](#notes)
   
 
 ---
@@ -123,17 +122,6 @@ Link is as follows: https://stackblitz.com/~/github.com/syedumar2/BookFinder-app
 
 ---
 
-## Notes
-- I was going to build a **Favourites page** (storing selected books in `localStorage` for later viewing) and an **About Me page**, but due to the short timeline (3 days for assignment submission) I wasn’t able to complete them.  
-- During development, I had to create multiple GPT conversations to resolve certain issues. While GPT was extremely helpful in shaping the project’s specifications, there were cases where I had to intervene myself:
-  - Some JSON responses weren’t correctly interpreted into TypeScript types.  
-  - A few CSS issues turned out not to be GPT errors but **Chrome DevTools quirks**, which I resolved by switching to **Firefox DevTools** for debugging.  
-- GPT was **very helpful** in:
-  - Correcting TypeScript mistakes (I’m still relatively new to TS).  
-  - Helping restructure hooks by switching from multiple state hooks to a cleaner `useReducer` approach.  
-
-- I managed to host my code on StackBlitz but **it fails to load image urls** which should not be the case if hosted on local or in prooduction. Im guessing some CDNs block sandboxed environments from accessing images.
-On viewing the preview in a new tab, images become visible.
 
 
 
